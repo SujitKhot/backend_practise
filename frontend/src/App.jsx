@@ -20,6 +20,7 @@ function App() {
     <>
       <h2>Hello Jokes</h2>
       <h5>Jokes : {jokes?.length}</h5>
+      <div>Happy New Year</div>
 
       <div>
         {jokes?.map((joke, index) => {
